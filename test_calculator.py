@@ -35,5 +35,11 @@ class SimpleTest(unittest.TestCase):
     def test_calculator9(self):
         self.assertEqual(calculator.sub(4, 2), 10)
 
+    def test_calculator10(self):
+        self.assertEqual(calculator.mul(5, 6), -2.3)
+    
+    def test_calculator11(self):
+        self.assertEqual(calculator.div('4', 2), 2)
+
 if __name__ == '__main__':
 	unittest.main()
